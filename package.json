@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "binary-pipe": "^2.0.1"
+  }
+}
