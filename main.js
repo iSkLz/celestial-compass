@@ -1,33 +1,9 @@
-class Map{
-  constructor(nm, pkgNm, lvls){
-    this.name = nm;
-    this.pkgName = pkgNm;
-    this.levels = lvls;
-  }
+const { app, BrowserWindow } = require('electron');
+const { Level, Map } = require('classes/maps/content.js');
 
-}
-class Level{
-  constructor(nm, x, y, w, h, ent, sol, tile, trig){
-    this.name = nm;
-    this.x = x;
-    this.y = y;
-    this.w = w;
-    this.h = h;
-    this.entities = ent;
-    this.solids = sol;
-    this.tileset = tile;
-    this.triggers = trig;
-  }
-}
-class Entity{
-
-}
-class Solid{
-
-}
-class Tileset{
-
-}
-class Trigger{
-  
-}
+app.once('ready', () => {
+  let win = new BrowserWindow();
+  win.loadFile("test.html");
+  win.show();
+  win.maximize();
+});
