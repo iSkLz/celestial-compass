@@ -38,7 +38,7 @@ At the start of the file you can write extra data, for instance you can write a 
 I strongly recommend you write global metadata here rather than in an element as its faster and reduces the file's size.
 
 ## Strings lookup
-The format stores a "lookup" array of strings that contains some frequently used strings. This is purely to increase efficiency and to reduce the file's size. The lookup is usually located at the start of the document after some metadata and contains the strings and their indexes.
+The format stores a "lookup" array of strings that contains some frequently used strings. This is purely to increase efficiency and to reduce the file's size. The lookup is usually located at the start of the document after some metadata and contains the strings, the indices are determined by the order.
 The lookup is stored like this:
  - A short representing how many strings the lookup has (lets call it N)
  - N strings next to each other
