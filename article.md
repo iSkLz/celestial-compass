@@ -185,7 +185,7 @@ As for elements' children, one doesn't have any unless it has nodes (zip mover w
 I hope this document helped you understand this amazing format a bit better, I did my best while trying to explain but nothing is perfect and its very difficult for me to find the right words considering I'm Arabic (AKA not a native speaker and not even Latin).
 
 #### CLI Bin To XML tool
-If you have trouble understanding my terrible explanation here's a CLI tool (Windows/Linux, sorry MacOS users ):) that converts a file of this format into an XML file which you can open in your browser and read it in a structural hierarchical (wow I spelled that word) fashion, which most definitely is easier to understand (I myself started researching the format by creating this tool, it helped a lot): [BinToXML](https://example.com/?nolinkyet)
+If you have trouble understanding my terrible explanation here's a CLI tool (Windows/Linux, sorry MacOS users ):) that converts a file of this format into an XML file which you can open in your browser and read it in a structural hierarchical (wow I spelled that word) fashion, which most definitely is easier to understand (I myself started researching the format by creating this tool, it helped a lot): [BinToXML](https://github.com/iSkLz/celestial-compass/blob/master/BinToXML.rar)
 Usage: BinToXML -input "path/to/bin/file" -output "path/to/xml/file" -decodelength yes/no
 All parameters are optional:
 - The input parameter defaults to Content/Maps/1-ForsakenCity.bin
@@ -195,5 +195,5 @@ All parameters are optional:
 If the path parameters don't contain any whitespaces then putting them between quotes isn't necessary (unless its required by the shell you're using)
 
 #### Contributing
-If you noticed any mistake I made (whether its technical or linguistic) or anything I forgot to point out, or you have information about the format you want to share with me, or you have a suggestion about how to improve this document or you just want to show me what you did with this format (I would really love to see that) please contact me on discord (SkLz(JQ)#5044) and I'll get back to you ASAP (its still going to take some time since I'm offline most of the time)
+If you noticed any mistake I made (whether its technical or linguistic) or anything I forgot to point out, or you have information about the format you want to share with me, or you have a suggestion about how to improve this document or you just want to show me what you did with this format (I would really love to see that) please contact me on discord (SkLz(JQ)#5054) and I'll get back to you ASAP (its still going to take some time since I'm offline most of the time)
 Have fun modding/mapping/reading documents or browsing GitHub repositories out of curiosity or for no reason!
