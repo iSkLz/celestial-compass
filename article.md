@@ -15,6 +15,7 @@ Stored as a single byte.
 - System.Single: AKA a float, or a single-precision floating-point number, stored as 4 bytes.
 - System.Double: AKA a double-precision floating-point number, stored as, you guessed it, 8 bytes.
 - System.Char: A single character, stored as a single byte representing the character's code on the ASCII/Unicode table (or other, depending on the encoding you use)
+(in memory, different .NET implementations use a different struct -usually UTF16- to store chars, but when output to a file it will be serialized as one byte)
 - System.String: This is where it gets a bit complicated, the string is stored as a compressed 7-bit integer (that I have no idea how it works) containing its length, and then a chain of bytes each representing a character of the string. It sounds easy on the surface but its a bit of a challenge to parse the 7-bit compressed integer in a different language like Node.JS, here's some JavaScript "example" code that can help you on that (its up to you to implement it):
 
         var num1 = 0;
